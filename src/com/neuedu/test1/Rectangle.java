@@ -20,8 +20,9 @@ public class Rectangle {
         this.b=iIndex;
     }
     public Rectangle(int iHeight, int iWidth){
-        this.a=iHeight;
-        this.b=iWidth;
+        this.a=iWidth;
+        this.b=iHeight;
+
     }
     public int getLength(){
         return  2*(this.a+this.b);
