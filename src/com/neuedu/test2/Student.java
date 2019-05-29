@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Student {
     //有五个学生，每个学生有3门课的成绩，从键盘输入以上数据
     // （包括学生号，姓名，三门课成绩），计算出平均成绩
-    String sno;
+    String sr;
     String name;
-    public void Run(){
+    public void A(){
         double avg =0;
         for(int i=0;i<5;i++){
             Scanner xs1 =new Scanner(System.in);
             System.out.print("请输入学生的学号:");
-            String sno =xs1.next();
+            String sr =xs1.next();
 
             Scanner xs2 =new Scanner(System.in);
             System.out.print("请输入学生的姓名:");
@@ -27,7 +27,7 @@ public class Student {
                 sum+=arr[j];
                 avg=sum/3;
             }
-            System.out.println(name+"的学号为：" +sno );
+            System.out.println(name+"的学号为：" +sr );
             System.out.println("三科的平均成绩为："+avg);
             System.out.println();
         }

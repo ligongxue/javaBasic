@@ -1,12 +1,13 @@
 package com.neuedu.test2;
 
 public class Computer {
-    private String color;
+    private char color;
     private int cpu;
     public Computer(){
-
+        this.color='黑';
+        this.cpu=12;
     }
-    public Computer(String color,int cpu){
+    public Computer(char color,int cpu){
         this.color=color;
         this.cpu=cpu;
     }
