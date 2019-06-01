@@ -15,6 +15,9 @@ public class Monkey {
     public Monkey(String s) {
         this.s = s;
     }
+    /*public void speak(){
+        System.out.println("小样的，不错嘛！会说话了！");
+    }*/
     public void speak(){
         System.out.println("咿咿呀呀......");
     }

@@ -6,6 +6,6 @@ public class Instrument {
     定义自己的演奏方式
     3 创建main方法 进行测试*/
     public void play(){
-        System.out.println("使用乐器！");
+        System.out.println("使用乐器！！！！！！！！！！");
     }
 }
