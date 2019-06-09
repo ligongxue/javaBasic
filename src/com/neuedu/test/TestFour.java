@@ -6,7 +6,6 @@ public class TestFour {
         int n=1;
         for (int a=1;a<=9;a++){
             n*=a;
-
         }
         System.out.println(n);
     }
